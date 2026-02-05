@@ -1,8 +1,8 @@
-# 🎁 AWS Free Credits Automation - Earn $100 in 15 Minutes
+# 🎁 AWS Free Credits Automation - Earn $200 in AWS Credits
 
-**Automated CloudFormation template to earn $100 AWS credits for new Free Tier accounts.**
+**Automated CloudFormation template to earn $200 AWS credits for new Free Tier accounts.**
 
-Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manually in 2 minutes for the final $20.
+Get **$100 instantly** at sign-up + earn **$100 more** by completing 5 simple activities. This template automates 4 out of 5 activities ($80). Complete the 5th (Bedrock) manually in 2 minutes for the final $20.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,9 +10,11 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 
 ## 📑 Table of Contents
 
-- [🎁 AWS Free Credits Automation - Earn $100 in 15 Minutes](#-aws-free-credits-automation---earn-100-in-15-minutes)
+- [🎁 AWS Free Credits Automation - Earn $200 in AWS Credits](#-aws-free-credits-automation---earn-200-in-aws-credits)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 What You'll Get](#-what-youll-get)
+    - [Instant Credits:](#instant-credits)
+    - [Earned Credits (Complete 5 Activities):](#earned-credits-complete-5-activities)
   - [📋 Prerequisites](#-prerequisites)
   - [🆕 AWS Free Tier - New Plan (Post July 15, 2025)](#-aws-free-tier---new-plan-post-july-15-2025)
     - [Two Plans Available:](#two-plans-available)
@@ -46,6 +48,12 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 
 ## 🎯 What You'll Get
 
+**Total: $200 in AWS credits**
+
+### Instant Credits:
+- **$100 USD** - Automatically credited when you create your AWS account
+
+### Earned Credits (Complete 5 Activities):
 | Activity | Credit | Automated? |
 |----------|--------|------------|
 | Set up AWS Budgets | $20 | ✅ Yes |
@@ -54,9 +62,13 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 | Create RDS Database | $20 | ✅ Yes |
 | Use Bedrock AI Model | $20 | ⚠️ Manual (2 min) |
 
-**Total: $100 in AWS credits**
+**Earned Credits Total: $100 USD**
+
+---
+
+**Grand Total: $200 in AWS credits**
 - **Free Plan**: Valid for 6 months or until exhausted
-- **Paid Plan**: Valid for 12 months from sign-up
+- **Paid Plan**: Valid for 12 months from account creation
 
 ---
 
@@ -96,7 +108,7 @@ AWS introduced a **new Free Tier model** for accounts created after July 15, 202
 
 ### How to Earn the Full $200:
 
-1. **$100 at sign-up** - Instant upon account creation
+1. **$100 at sign-up** - Instant upon account creation (automatic)
 2. **$100 more** - Complete 5 activities ($20 each):
    - ✅ Set up AWS Budgets
    - ✅ Launch EC2 instance
@@ -104,7 +116,7 @@ AWS introduced a **new Free Tier model** for accounts created after July 15, 202
    - ✅ Create RDS database
    - ✅ Use Amazon Bedrock AI model
 
-**This repository automates 4 out of 5 activities!**
+**This repository automates 4 out of 5 activities ($80)!** You only need to complete Bedrock manually (2 minutes).
 
 
 📖 **Learn More**: [AWS Free Tier Official Announcement](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/)
@@ -173,8 +185,8 @@ aws configure
 
 ```bash
 # Clone the repository
-git clone https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template.git
-cd aws-free-tier-100-dollar-credits-cloudformation-template
+git clone https://github.com/om-mapari/aws-free-tier-200-dollar-credits-cloudformation-template.git
+cd aws-free-tier-200-dollar-credits-cloudformation-template
 
 # Deploy the stack
 aws cloudformation create-stack \
@@ -305,7 +317,7 @@ Or in AWS Console:
 ## 📁 Repository Files
 
 ```
-aws-free-tier-100-dollar-credits-cloudformation-template/
+aws-free-tier-200-dollar-credits-cloudformation-template/
 ├── aws-credits-activities.yaml    # CloudFormation template (all 4 activities)
 ├── billing-alarm.yaml             # Budget protection only
 ├── deploy.sh                      # CloudFormation deployment script
@@ -420,7 +432,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-This project helps new AWS users quickly earn their $100 in credits without manual setup. Built with ❤️ for the AWS community.
+This project helps new AWS users quickly earn their $200 in credits without manual setup. Built with ❤️ for the AWS community.
 
 **Star ⭐ this repo if it helped you earn credits!**
 
@@ -428,10 +440,10 @@ This project helps new AWS users quickly earn their $100 in credits without manu
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template/discussions)
+- **Issues:** [GitHub Issues](https://github.com/om-mapari/aws-free-tier-200-dollar-credits-cloudformation-template/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/om-mapari/aws-free-tier-200-dollar-credits-cloudformation-template/discussions)
 - **AWS Support:** [AWS Support Center](https://console.aws.amazon.com/support)
 
 ---
 
-**Ready to earn your $100?** 🚀 [Get Started](#-quick-start-guide)
+**Ready to earn your $200?** 🚀 [Get Started](#-quick-start-guide)
