@@ -14,6 +14,11 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 What You'll Get](#-what-youll-get)
   - [📋 Prerequisites](#-prerequisites)
+  - [🆕 AWS Free Tier - New Plan (Post July 15, 2025)](#-aws-free-tier---new-plan-post-july-15-2025)
+    - [Two Plans Available:](#two-plans-available)
+      - [🎁 FREE PLAN (6 months)](#-free-plan-6-months)
+      - [💳 PAID PLAN (12 months)](#-paid-plan-12-months)
+    - [How to Earn the Full $200:](#how-to-earn-the-full-200)
   - [🚀 Quick Start Guide](#-quick-start-guide)
     - [Step 1: Create AWS Account (if needed)](#step-1-create-aws-account-if-needed)
     - [Step 2: Deploy CloudFormation Template](#step-2-deploy-cloudformation-template)
@@ -23,8 +28,6 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
     - [Step 6: Verify Credits Earned](#step-6-verify-credits-earned)
     - [Step 7: Delete Resources (Important!)](#step-7-delete-resources-important)
     - [Step 8: Keep Billing Protection (Recommended!)](#step-8-keep-billing-protection-recommended)
-  - [💰 Cost Breakdown](#-cost-breakdown)
-  - [🛡️ Billing Protection](#️-billing-protection)
   - [📁 Repository Files](#-repository-files)
   - [🔧 Troubleshooting](#-troubleshooting)
     - [Stack creation fails](#stack-creation-fails)
@@ -65,6 +68,46 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 ✅ **10-15 minutes** of your time
 
 **That's it!** No AWS CLI needed for console deployment.
+
+---
+
+## 🆕 AWS Free Tier - New Plan (Post July 15, 2025)
+
+AWS introduced a **new Free Tier model** for accounts created after July 15, 2025, replacing the traditional 12-month free tier with a credit-based system.
+
+### Two Plans Available:
+
+#### 🎁 FREE PLAN (6 months)
+- **$100 at sign-up** + **$100 by completing activities** = **$200 total credits**
+- ✅ No charges unless you upgrade to Paid Plan
+- ✅ Access to 30+ always-free services
+- ✅ Expires after 6 months OR when credits exhausted (whichever comes first)
+- ✅ 90-day grace period to upgrade after expiration
+- ❌ Cannot scale beyond credit thresholds
+- ❌ Limited service access (some enterprise services unavailable)
+
+#### 💳 PAID PLAN (12 months)
+- **Same $200 credits** (valid for 12 months from account creation date)
+- ✅ Pay for usage beyond credits (standard on-demand pricing)
+- ✅ Access to all 150+ AWS services
+- ✅ Can scale beyond credit thresholds
+- ✅ Credits automatically applied to eligible services
+- ✅ No account expiration (unlike Free Plan's 6-month limit)
+
+### How to Earn the Full $200:
+
+1. **$100 at sign-up** - Instant upon account creation
+2. **$100 more** - Complete 5 activities ($20 each):
+   - ✅ Set up AWS Budgets
+   - ✅ Launch EC2 instance
+   - ✅ Create Lambda web app
+   - ✅ Create RDS database
+   - ✅ Use Amazon Bedrock AI model
+
+**This repository automates 4 out of 5 activities!**
+
+
+📖 **Learn More**: [AWS Free Tier Official Announcement](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/)
 
 ---
 
